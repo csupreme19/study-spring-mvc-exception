@@ -1,9 +1,8 @@
 server:
   error:
-    path: /error
     whitelabel:
       enabled: false
-    include-exception: false
-    include-binding-errors: never
-    include-stacktrace: never
-    include-message: never
+    include-exception: true
+    include-binding-errors: always
+    include-stacktrace: always
+    include-message: always
